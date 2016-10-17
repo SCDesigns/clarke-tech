@@ -1,0 +1,177 @@
+body {
+	font-family: Noto Sans, sans-serif;
+}
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 7px; 
+    z-index: -1;
+}
+.stretch {
+    width:100%;
+    height:100%;
+}
+#break {
+	height: .25em;
+	width: 15em;
+	background: #191F59;
+	margin: 2.5em auto;
+}
+.breakMini {
+	height: .25em;
+	width: 10em;
+	background: #FFEB3B;
+	margin: 1.5em auto;
+}
+.separator {
+	background: transparent;
+	height: 20em;
+}
+img.icon:hover {
+    background-color: white;
+    width:49px;
+    height:49px;
+    border-radius:250px;
+}
+.icon {
+	width: 45px;
+	height: 45px;
+	margin: 0 25px;
+}
+#mylogo {
+	width: 25em;
+	height: 10em;
+	margin: 0em auto 2.5em;
+}
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	color: #ffffff;
+}
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+	margin: 0em auto 2.5em;
+	color: #ffffff;
+}
+.member {
+	margin: 1.5em 0;
+	color: #000000;
+}
+.address {
+	margin: 1.5em 0;
+	color: #191F59;
+	line-height: 1.5em;
+}
+.location {
+	color: #191F59;
+}
+#header {
+	text-align: center;
+	line-height: 150%;
+}
+#heading{
+	background: #FFFFFF;
+	width: 33%;
+}
+#sectionhead{
+	margin: 2em 0;
+	text-align: center;
+}
+#intro {
+	margin: 5em auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	color: #fff; 
+	font-family: 'Oswald', sans-serif;
+}
+#home {
+ 	margin:5em auto;
+ 	width: 60%;
+}
+#powerBoiler {
+	background:rgba(54,66,146, 0.75);
+	height: 100%;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	border-top: 5em double transparent;
+	margin-top: -5em;
+	padding-bottom: 5em;
+}
+#exchangerCooling {
+	height: 100%;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	background:rgba(54,66,146, 0.75);
+	border-top: 5em double transparent;
+	margin-top: -5em;
+	padding-bottom: 5em;
+}
+#tech {
+	height: 100%;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	background:rgba(54,66,146, 0.75);
+	border-top: 5em double transparent;
+	margin-top: -5em;
+	padding-bottom: 5em;
+}
+#contact {
+	height: 100%;
+	width: 100%;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	background:rgba(54,66,146, 0.75);
+	border-top: 5em double transparent;
+	margin-top: -5em;
+	padding-bottom: 5em;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+legend {
+	color: white;
+	text-align: center;
+}
+p {
+	font-size: 1.25em;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	margin: 2em auto;
+}
+.wrapper {	
+	width: 100%;
+	margin: auto;
+}
+.wrapper2 {;
+	width: 95%;
+	margin: auto;
+}
+.company {
+	margin: 1.5em auto;
+	padding: 2.5em 2.5em;
+	width: 80%;
+	height: auto;
+	background:rgba(255,255,255, 1);
+	border-radius: 1em;
+}
+.companyLogo {
+	width: 15em;
+	height: auto;
+	display: block;
+	margin: 1em auto;
+}
+.team {
+	margin: 1.5em;
+	display: inline-table;
+	border-radius: 1em;
+	padding: 1.5em;
+	background: #FFFFFF;
+}
