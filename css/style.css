@@ -86,7 +86,7 @@
 
 /*//// CONTACT SCROLL FIX //////*/
 
-	#contact:before { 
+	#section4:before { 
 		display: block; 
 		content: " "; 
 		margin-top: -5px; 
